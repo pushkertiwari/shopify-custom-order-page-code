@@ -1,0 +1,341 @@
+[
+    {
+        "name": "sandeepshetty/wcurl",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sandeepshetty/wcurl.git",
+            "reference": "69e532773ca9306418101ca6c8edddd6c70d5427"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sandeepshetty/wcurl/zipball/69e532773ca9306418101ca6c8edddd6c70d5427",
+            "reference": "69e532773ca9306418101ca6c8edddd6c70d5427",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "time": "2013-04-07T01:00:07+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sandeep Shetty",
+                "email": "sandeep.shetty@gmail.com",
+                "homepage": "http://sandeep.shetty.in",
+                "role": "Developer"
+            }
+        ],
+        "description": "A convenience wrapper around PHP's cURL library",
+        "homepage": "https://github.com/sandeepshetty/wcurl",
+        "keywords": [
+            "api",
+            "curl",
+            "http"
+        ]
+    },
+    {
+        "name": "sandeepshetty/shopify_api",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sandeepshetty/shopify_api.git",
+            "reference": "20956b20c879f64cacedaf029d40d6d188f97e5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sandeepshetty/shopify_api/zipball/20956b20c879f64cacedaf029d40d6d188f97e5d",
+            "reference": "20956b20c879f64cacedaf029d40d6d188f97e5d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "sandeepshetty/wcurl": "dev-master"
+        },
+        "time": "2014-11-23T20:57:34+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "../wcurl/wcurl.php",
+                "client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sandeep Shetty",
+                "email": "sandeep.shetty@gmail.com",
+                "homepage": "http://sandeep.shetty.in",
+                "role": "Developer"
+            }
+        ],
+        "description": "Simple Shopify API client in PHP",
+        "homepage": "https://github.com/sandeepshetty/shopify_api",
+        "keywords": [
+            "api",
+            "shopify"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "5ce90b1962998f1536d9d46fb3707625312c1732"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/5ce90b1962998f1536d9d46fb3707625312c1732",
+            "reference": "5ce90b1962998f1536d9d46fb3707625312c1732",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "1.2.*",
+            "jms/serializer": "0.16.*",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "4.8.*",
+            "symfony/debug": "2.8.*",
+            "symfony/filesystem": "2.8.*",
+            "symfony/translation": "2.8.*",
+            "symfony/yaml": "2.8.*",
+            "zendframework/zend-cache": "2.5.1",
+            "zendframework/zend-config": "2.5.1",
+            "zendframework/zend-eventmanager": "2.5.1",
+            "zendframework/zend-filter": "2.5.1",
+            "zendframework/zend-i18n": "2.5.1",
+            "zendframework/zend-json": "2.5.1",
+            "zendframework/zend-math": "2.5.1",
+            "zendframework/zend-serializer": "2.5.*",
+            "zendframework/zend-servicemanager": "2.5.*",
+            "zendframework/zend-stdlib": "2.5.1"
+        },
+        "suggest": {
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+        },
+        "time": "2017-08-12T15:59:58+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.phpmaileroauth.php",
+                "class.phpmaileroauthgoogle.php",
+                "class.smtp.php",
+                "class.pop3.php",
+                "extras/EasyPeasyICS.php",
+                "extras/ntlm_sasl_client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "doctrine/lexer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git",
+            "reference": "cc709ba91eee09540091ad5a5f2616727662e41b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/lexer/zipball/cc709ba91eee09540091ad5a5f2616727662e41b",
+            "reference": "cc709ba91eee09540091ad5a5f2616727662e41b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2017-07-24T09:37:08+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "lexer",
+            "parser"
+        ]
+    },
+    {
+        "name": "egulias/email-validator",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/egulias/EmailValidator.git",
+            "reference": "bc31baa11ea2883e017f0a10d9722ef9d50eac1c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/bc31baa11ea2883e017f0a10d9722ef9d50eac1c",
+            "reference": "bc31baa11ea2883e017f0a10d9722ef9d50eac1c",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/lexer": "^1.0.1",
+            "php": ">= 5.5"
+        },
+        "require-dev": {
+            "dominicsayers/isemail": "dev-master",
+            "phpunit/phpunit": "^4.8.0",
+            "satooshi/php-coveralls": "dev-master"
+        },
+        "suggest": {
+            "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
+        },
+        "time": "2017-01-30T22:07:36+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Egulias\\EmailValidator\\": "EmailValidator"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Eduardo Gulias Davis"
+            }
+        ],
+        "description": "A library for validating emails against several RFCs",
+        "homepage": "https://github.com/egulias/EmailValidator",
+        "keywords": [
+            "email",
+            "emailvalidation",
+            "emailvalidator",
+            "validation",
+            "validator"
+        ]
+    },
+    {
+        "name": "swiftmailer/swiftmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/swiftmailer/swiftmailer.git",
+            "reference": "bd3da52d22c6abfc808c2f9c56aca652e66d9e9a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/bd3da52d22c6abfc808c2f9c56aca652e66d9e9a",
+            "reference": "bd3da52d22c6abfc808c2f9c56aca652e66d9e9a",
+            "shasum": ""
+        },
+        "require": {
+            "egulias/email-validator": "~2.0",
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.1",
+            "symfony/phpunit-bridge": "~3.3@dev"
+        },
+        "time": "2017-08-22T22:08:15+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "lib/swift_required.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Corbyn"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Swiftmailer, free feature-rich PHP mailer",
+        "homepage": "http://swiftmailer.symfony.com",
+        "keywords": [
+            "email",
+            "mail",
+            "mailer"
+        ]
+    }
+]
